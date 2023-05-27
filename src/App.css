@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+nav {
+    padding: 8px 12px;
+    background-color: #111;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 9px 12px;
+    color: #fff;
+    text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active {
+    background-color: orange;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.error h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
 }
-
-.App-link {
-  color: #61dafb;
+.title {
+    text-align: center;
+    color: rgb(63, 8, 8);
+    letter-spacing: 1px;
+    padding: 20px;
+    font-weight: 500;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+    margin: 10px 5px 20px;
+    text-align: justify;
+}
+button {
+    width: 140px;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 17px;
+    background-color: orange;
+    box-shadow: 4px 4px 5px #333;
+}
+form{
+    margin: 100px auto;
+    width: 50%;
+}
+form div {
+    display: flex;
+    margin: 10px;
+}
+form div label {
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+form div input {
+    padding: 6px 12px;
+    width: 70%;
+    outline: none;
+    border: 1px solid #8f8e8e;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.blogs article {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.blogs article h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn {
+    width: 18=40px;
+    background-color: orange;
+    text-decoration: none;
+    color: #111;
+    padding: 8px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px #333;
+}
+.blog h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.blog p {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
 }
